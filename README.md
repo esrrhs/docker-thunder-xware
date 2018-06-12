@@ -17,7 +17,7 @@ docker pull esrrhs/docker-thunder-xware:latest
 
 ```
 
-docker run --name xware --privileged -v (你的目录):/project/download -d esrrhs/docker-thunder-xware
+docker run --name xware --privileged --restart=always -v (你的目录):/project/download -d esrrhs/docker-thunder-xware
 
 ```
 
