@@ -1,5 +1,7 @@
 FROM centos:latest
 
+MAINTAINER esrrhs <esrrhs@163.com>  
+
 RUN 	yum install glibc.i686 -y && \
 	yum install libstdc++.so.6 -y && \
 	yum install zlib.i686 -y && \
