@@ -1,6 +1,6 @@
 # Dockerizing thunder xware
 
-迅雷离线下载 docker 镜像, 参考https://github.com/yinheli/docker-thunder-xware修改
+迅雷离线下载 docker 镜像, 参考[yinheli/docker-thunder-xware](https://github.com/yinheli/docker-thunder-xware)修改
 
 采用centos镜像，修复了大文件会挂掉的bug
 
