@@ -6,4 +6,4 @@ dir=/home/xunlei
 mkdir -p $dir
 mkdir -p $dir/download
 
-docker run --name xware --privileged -v $dir/download:/project/download -d xware
+docker run --name xware --privileged --restart=always -v $dir/download:/project/download -d esrrhs/docker-thunder-xware
