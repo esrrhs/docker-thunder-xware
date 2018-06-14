@@ -13,14 +13,19 @@
 docker pull esrrhs/docker-thunder-xware:latest
 ```
 
-### 运行
+### 直接运行
 
 ```
 
 docker run --name xware --privileged --restart=always -v (你的目录):/project/download -d esrrhs/docker-thunder-xware
 
 ```
+### 脚本运行
+会生成假的mac地址，避免被ban
+```
+./run.sh
 
+```
 ### 查看运行情况
 
 ```
