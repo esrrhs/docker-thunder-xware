@@ -1,4 +1,5 @@
 # Dockerizing thunder xware
+[<img src="https://img.shields.io/docker/pulls/esrrhs/docker-thunder-xware?style=for-the-badge">](https://hub.docker.com/repository/docker/esrrhs/docker-thunder-xware)
 
 迅雷离线下载 docker 镜像, 参考[yinheli/docker-thunder-xware](https://github.com/yinheli/docker-thunder-xware)修改
 
